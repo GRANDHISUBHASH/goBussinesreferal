@@ -1,0 +1,256 @@
+
+body{
+    height:100vh;
+    width:100vw;
+    background-color: white;
+    color:rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+.menu-toggle {
+    display: none; /* Hide the hamburger menu icon by default */
+    cursor: pointer;
+}
+
+.buttonstyle,thead{
+    background: linear-gradient(322.23deg, #4776E6 10%, #8E54E9 100%);
+    padding: 10px;
+    border-radius:10px ;
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+    width: 70%;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+input[type="search"] {
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border:0px ;
+    
+}
+.searchCard {
+    background: rgb(230, 221, 221);
+    width: 224px;
+    display: flex;
+    justify-content: center;
+    height: 39px;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px;
+    background: #F9FAFB;
+
+
+  
+
+}
+.Dashbord{
+    display: flex;
+    justify-content: space-around;
+    height: 93px;
+    align-items: center;
+}
+.Profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height:inherit;
+   
+    gap: 20px;
+   
+    
+}
+.Profile img {
+    height:40px;
+    border-radius: 20px;
+}
+.Profile div{
+    height: 40px;
+}
+.profileDetailes{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size:10px;
+}
+footer{
+    align-items: center;
+    padding: 10px;
+}
+footer div{
+    display: flex;
+}
+footer div ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.companyInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.companyInformation img {
+    height:50px;
+    width:150px;
+}
+.socialMedia{
+    gap: 20px;
+}
+
+.referaldeatailes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px;
+  
+   
+
+}
+.card{
+   
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+height: 120px;
+width:20%;
+left: 15px;
+right: 915px;
+top: -0.2px;
+
+background: linear-gradient(322.23deg, #4776E6 10%, #8E54E9 100%);
+border-radius: 6px;
+
+}
+.card div{
+   
+
+
+width: 125.14px;
+height: 65px;
+left: 110px;
+top: calc(50% - 65px/2 - 0.5px);
+
+
+}
+.card div p{
+    font-size: 15px;
+    color: white;
+}
+.serviceCard{
+    border:dashed 2px ;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+}
+.serviceCard div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.serviceCard div b:nth-child(2){
+    color: blue;
+}
+.ReferCodeANdEarnCard{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+.ReferCodeANdEarnCard div:nth-child(1){
+    width:75%;
+}
+
+.ReferCodeANdEarnCard div div input[type="text"] {
+    width: 68%;
+    background: transparent;
+    padding: 10px;
+    width: 68%;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 16px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+.sravicessearchCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sravicessearchCard div:nth-child(1){
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+}
+.sravicessearchCard div:nth-child(1) input{
+    width:50px;
+    border-radius: 10px;
+    
+}
+.sravicessearchCard div:nth-child(2) input{
+    border-radius: 10px;
+    height: 30px;
+
+}
+.tabelDataDIScCrad{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+}
+.tabelDataDIScCrad button{
+    color:rgb(70, 59, 225);
+    border:1px solid  rgb(70, 59, 225);
+    border-radius:5px ;
+   padding: 5px;
+    cursor: pointer;
+}
+.tabelDataDIScCrad button:nth-child(2){
+    background: linear-gradient(322.23deg, #4776E6 10%, #8E54E9 100%);
+    color:white;
+    border-radius: 5px;
+}

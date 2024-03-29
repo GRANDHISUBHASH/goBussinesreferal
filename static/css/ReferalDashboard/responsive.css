@@ -1,0 +1,89 @@
+@media screen and (max-width: 750px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .searchCard {
+        width: 180px;
+    }
+
+    .Profile img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .referaldeatailes {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .serviceCard div {
+        flex-basis: calc(100% - 20px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .buttonstyle,
+    thead {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .buttonstyle,
+    thead {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ReferCodeANdEarnCard {
+        flex-direction: column;
+    }
+
+    .ReferCodeANdEarnCard div:nth-child(1) {
+        width: 80%;
+    }
+    .ReferCodeANdEarnCard div div  {
+        display: flex;
+        gap:10px;
+        
+        
+    }
+    button.buttonstyle {
+        width: 150px;
+    }
+
+    .ReferCodeANdEarnCard div div input[type="text"] {
+        width: calc(100% - 20px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show the hamburger menu icon for smaller screens */
+    }
+
+    ul.nav-links {
+        display: none; /* Hide the navigation links by default on smaller screens */
+        flex-direction: column;
+        background-color: #f8f9fa;
+        padding: 10px;
+        position: absolute;
+        top: 60px; /* Adjust this value as needed to position the dropdown menu */
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    ul.nav-links.active {
+        display: flex; /* Show the navigation links when active (menu is open) */
+    }
+
+    ul.nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
